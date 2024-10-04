@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+
+}
+body{
+    color: #fff;
+    background: transparent;
+    overflow: hidden;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 35px;
+    color:#fff;
+    text-decoration: none;
+    font-weight:500;
+    font-family: "Monoton", sans-serif;
+    filter: drop-shadow(0 0 5px black);
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 35px;
+    transition: .2s;
+}
+.navbar a:hover,.navbar a.active{
+    color: #9108b7;
+}
+.main-content{
+    background-color: red;
+    width: 300px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    max-width: 650px;
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.home-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.text{
+    margin-left: 25%;
+}
+.main-word{
+    color:#9108b7;
+    font-family: "Monoton", sans-serif;
+    font-size: 70px;
+    margin-left: 15px;
+}
+.home-content p{
+    font-size: 20px;
+    word-spacing: 4px;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 30px;
+}
+.home-content .start-btn{
+    width: 190px;
+    height: 55px;
+    background:#ffff;
+    border:2px solid #000000;
+    border-radius: 30px;
+    font-size: 21px;
+    box-shadow: 0 0 10px black;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .2s;
+}
+.start-btn:hover{
+    background: #9108b7;
+}
+.back-video{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
