@@ -129,6 +129,11 @@ body{
     color: #fff;
     border-radius: 4px;
 }
+.back-video{
+    position: absolute;
+    width: 100%;
+   
+}
 
 
 
