@@ -11,6 +11,7 @@ body{
     background: transparent;
     overflow: hidden;
 }
+
 .header{
     position: fixed;
     width: 100%;
@@ -40,23 +41,20 @@ body{
 .navbar a:hover,.navbar a.active{
     color: #9108b7;
 }
-.main-content{
-    background-color: red;
-    width: 300px;
-
-}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .home{
-    position: relative;
+    position:absolute;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .home-content{
     max-width: 650px;
     margin-top: 15%;
@@ -85,7 +83,7 @@ body{
     text-shadow: 0 0 10px black;
     margin-bottom: 30px;
 }
-.home-content .start-btn{
+.home-content .learn-btn{
     width: 190px;
     height: 55px;
     background:#ffff;
@@ -98,11 +96,12 @@ body{
     transition: .2s;
     
 }
-.home-content .start-btn a{
+.home-content .learn-btn a{
     text-decoration: none;  
+    color: black;
 }
-.start-btn:hover{
-    background: #9108b7;
+.learn-btn:hover{
+    background: #500465;
 }
 .back-video{
     position: absolute;
@@ -111,3 +110,4 @@ body{
     right:0;
     z-index: -1;
 }
+
