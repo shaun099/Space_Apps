@@ -30,7 +30,7 @@ body{
     filter: drop-shadow(0 0 5px black);
 }
 .navbar a{
-    font-size: 18px;
+    font-size: 25px;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -38,11 +38,11 @@ body{
     transition: .2s;
 }
 .navbar a:hover,.navbar a.active{
-    color: #728b7c;
+    color:wheat;
 }
 .main{
     min-height: 100vh;
-    background:url(images/dark\ green\ leaves\ wallpaper.jpeg);
+    background:url(asset/image/quizcover.jpg);
     background-size: cover;
     background-position: center;
     pointer-events: auto;
@@ -87,7 +87,7 @@ body{
     width: 190px;
     height: 55px;
     background:#ffff;
-    border:2px solid #245c38;
+    border:2px solid black;
     border-radius: 30px;
     font-size: 21px;
     box-shadow: 0 0 10px black;
@@ -96,7 +96,7 @@ body{
     transition: .2s;
 }
 .home-content .start-btn:hover{
-    background: #728b7c;
+    background: wheat;
 }
 .popup-info{
     position: absolute;
